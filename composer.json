@@ -1,0 +1,22 @@
+{
+    "name": "web-secure/crypt",
+    "description": "Keep your secret data encrypted.",
+    "keywords": [],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "symfony/options-resolver": "^4.2",
+        "paragonie/sodium_compat": "^1.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebSecure\\": "./src"
+        },
+        "files": [
+            "./bootstrap.php"
+        ]
+    }
+}
